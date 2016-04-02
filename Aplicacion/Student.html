@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+       <title>Student</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="alumno.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+           
+    <body>
+        <div class="col-md-6">
+            <a href="#" data-toggle="modal" data-target="#modal-config"><span class="glyphicon glyphicon-cog"></span></a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal-config" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Configuration</h4>
+                            
+                        </div>
+                        <div class="modal-body">
+                            <h4>What language do you prefer this screen ?</h4>
+                            <div class="row">    
+                                <div class="col-md-2">
+                                    <a href="Alumno.html"><img src="img/spain.png" class="img-responsive"></a>
+                                </div>
+                                <div class="col-md-2">
+                                    <a href="Student.html"><img src="img/english.png" class="img-responsive"></a>
+                                </div>
+                            </div>
+                            <br><h4>I want to change my data.</h4>
+                            <button type="button" class="btn btn-success btn-lg" data-toggle="collapse" data-target="#modificar-datos">Change data</button>
+                            <div id="modificar-datos" class="collapse">
+                                <form role="form" id="form-alumno">
+                                    <div class="form-group">
+                                        <br><label for="nombre">Name:</label>
+                                        <input type="nombre" class="form-control input-sm" id="nombre">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="apellidos">Surnames:</label>
+                                        <input type="apellidos" class="form-control input-sm" id="apellidos">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pwd">Password:</label>
+                                        <input type="password" class="form-control input-sm" id="pwd">
+                                    </div>
+                                    <button type="submit" data-toggle="collapse"  class="btn btn-success btn-block"><a href="Alumno.html">Save</a></button>  
+                                </form>
+                            </div>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" data-toggle="modal" data-target="#modal-instrucciones"><span class="glyphicon glyphicon-info-sign"></span></a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal-instrucciones" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Do you have any questions?</h4>
+                            
+                        </div>
+                        <div class="modal-body">
+                            <p>- Just click on a topic to start PLAY!</p>
+                            <p>- If you want the screen in English or need to change your login details only you have to click on the Setup button .</p>
+                            <p>- You can click on the button go out.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <a href="#" data-toggle="modal" data-target="#modal-salir" id="log-out"><span class="glyphicon glyphicon-log-out"></span></a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal-salir" role="dialog">
+                <div class="modal-dialog" id="salir">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Are you sure you want to quit ?</h4>
+                            
+                        </div>
+                        <div class="modal-body">
+                            <button type="button" class="btn btn-success btn-lg"><a href="InicioSesion.html">Yes</a></button>
+                            <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" id="tema-1">
+                    <a href="#"><img src="img/cuerpo-humano.png" class="img-responsive"></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"><img  id="tema-2" src="img/planta.jpg" class="img-responsive img-rounded"></a>
+                </div>
+                <div class="col-md-3" id="tema-1">
+                    <a href="#"><img src="img/cuerpo-humano.png" class="img-responsive"></a>
+                </div>
+                <div class="col-md-3" id="tema-1">
+                    <a href="#"><img src="img/cuerpo-humano.png" class="img-responsive"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3" id="tema-1">
+                    <a href="#"><img src="img/cuerpo-humano.png" class="img-responsive"></a>
+                </div>
+                <div class="col-md-3" id="tema-1">
+                    <a href="#"><img src="img/cuerpo-humano.png" class="img-responsive"></a>
+                </div>
+                <div class="col-md-3" id="tema-1">
+                    <a href="#"><img src="img/cuerpo-humano.png" class="img-responsive"></a>
+                </div>
+                <div class="col-md-3" id="tema-1">
+                    <a href="#"><img src="img/cuerpo-humano.png" class="img-responsive"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+</html>    

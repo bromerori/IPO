@@ -1,0 +1,20 @@
+body{
+    background-color: #FFB253;
+}
+
+.col-md-3{
+    margin-top: 30px;
+}
+
+.glyphicon{
+    font-size: 50px;
+    padding: 10px;
+}
+
+#log-out{
+    margin-left: 90%;
+}
+
+#salir{
+    width: 350px;
+}

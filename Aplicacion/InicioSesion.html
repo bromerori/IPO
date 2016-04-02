@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+       <title>Inicio sesion</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="inicio-sesion.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+           
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="area-alumno" class="col-md-10 jumbotron">
+                        <h2>ÁREA DEL ALUMNO</h2>
+                        <img src="img/minion.ico" class="img-responsive" id="icono-alumno">
+                    
+                        <form role="form" id="form-alumno">
+                            <h3>Iniciar sesión</h3>
+                            <div class="form-group">
+                                <label for="nombre">Nombre:</label>
+                                <input type="nombre" class="form-control input-sm" id="nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="apellidos">Apellidos:</label>
+                                <input type="apellidos" class="form-control input-sm" id="apellidos">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Contraseña:</label>
+                                <input type="password" class="form-control input-sm" id="pwd">
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Recuerdame</label>
+                            </div>
+                            <p>Si te has olvidado de tus datos, pídeselos a tu profe.</p>
+                            <button type="submit"  class="btn btn-success btn-block" style="background-color: #2ED74A"><a href="Alumno.html">Entrar</a></button>
+                            <br><p> ¿Es la primera vez que utilizas esta aplicación? </p>
+                            <button type="submit" class="btn btn-success btn-block" style="background-color: #2ED74A">¡Registrate!</button>    
+                        </form>
+                    </div>    
+                </div>
+                <div class="col-md-6">   
+                    <div id="area-profesor" class="col-md-10 jumbotron">
+                        <h2>ÁREA DEL PROFESOR</h2>
+                        <img src="img/profesor.png" class="img-responsive" id="icono-profesor">
+                        <form role="form" id="form-profesor">
+                            <h3>Iniciar sesión</h3>   
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" class="form-control input-sm" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Contraseña:</label>
+                                <input type="password" class="form-control input-sm" id="pwd">
+                            </div>
+                            <div class="checkbox">
+                                <label><input type="checkbox"> Recuerdame</label>
+                            </div>
+                            <button type="submit" class="btn btn-success btn-block" style="background-color: #2ED74A">Entrar</button>
+                            <br><a href="#"> He olvidado mis datos.</a><br>
+                            <br><p>¿Es la primera vez que utilizas esta aplicación?</p>
+                            <button type="submit" class="btn btn-success btn-block" style="background-color: #2ED74A">¡Registrate!</button>
+                        </form>
+                    </div>
+                </div>    
+                    
+            </div>    
+        </div>             
+    </body>
+    
+</html>    

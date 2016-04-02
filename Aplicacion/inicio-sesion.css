@@ -1,0 +1,57 @@
+body{
+    background-color: #FFB253;
+}
+
+.col-md-6{
+    padding: 0;
+}
+
+.col-md-10{
+    height: 605px;
+}
+
+#area-alumno{
+    
+    margin-left: 30px;
+    margin-top: 30px;
+    //padding: 10px;
+    background-color: #75A9F9;
+    color: white;
+}
+
+#area-profesor{
+    margin-left: 30px;
+    margin-top: 30px;
+    //padding: 10px;
+    background-color: #75A9F9;
+    color: white;
+}
+
+.jumbotron p{
+    font-size: 15px;
+}
+
+#icono-alumno{
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+}
+
+#form-alumno{
+    position: relative;
+    bottom: 100px;
+}
+
+#icono-profesor{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 340px;
+    bottom: 100px;
+}
+
+#form-profesor{
+    position: relative;
+    bottom: 120px;
+}
+
