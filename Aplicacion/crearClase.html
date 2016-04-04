@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IPO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: orange">
+ <header>
+      <div class="container-fluid">
+           <div class="row">
+               <div class="btn-group" style="float:left">
+                     <button type="button"
+                     class="btn btn-primary dropdown-toggle"
+                     data-toggle="dropdown" style="height:60px; width:60px" >
+                     <span class="glyphicon glyphicon-cog">
+                     </span>
+                     </button>
+                     <ul class="dropdown-menu" role="menu">
+                         <li><a href="#">Idioma</a>
+                         </li>
+                         <li><a href="#">Volumen</a>
+                         </li>
+                     </ul>
+                </div>
+                    <h1 class="text-center" style="color:white">Crear clase</h1>
+                    <br>
+            </div>
+      </div>
+</header>
+    <div class="container-fluid">
+            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+               <form class="form-horizontal">
+                   <div class="form-group">
+                       <label for="select" class="control-label col-xs-2"> Curso: </label>
+                       <div class="col-xs-9">
+                           <select id="curso">
+                               <option> </option>
+                               <option>5º de primaria</option>
+                               <option>6º de primaria</option>
+                           </select>
+                       </div>
+                   </div>
+                   <div class="form-group">
+                       <label for="select" class="control-label col-xs-2"> Letra: </label>
+                       <div class="col-xs-9">
+                            <select id="letra">
+                           <option> </option>
+                           <option>A</option>
+                           <option>B</option>
+                           <option>C</option>
+                           <option>D</option>
+                           <option>E</option>
+                           <option>F</option>
+                           <option>G</option>
+                           <option>H</option>
+                           <option>I</option>
+                       </select>  
+                       </div>
+                   </div>
+                    <div class="form-group">
+                          <label for="inputName" class="control-label col-xs-2">foto:</label>
+                           <div class="col-xs-9">
+                                 <input type="text" class="form-control" id="inputImagen" placeholder="Copia aqui la ruta donde está guardada la imagen">
+                                <button type="submit"  class="btn btn-primary disabled btn-xs">Cargar imagen</button>
+
+                         </div>
+                     </div>
+                   <div align="center">
+                         <button type="submit" class="btn btn-primary disabled btn-lg" >Crear</button>
+                    </div>
+            </form>
+        </div>
+        <div class="row">
+          <div class="col-md-12"></div>
+           <button type="button" class="btn btn-primary" style="height: 60px; width:60px; float: left" onclick=" window.location.href='gestionAlumnos.html'"> <span class="glyphicon glyphicon-circle-arrow-left"></span>
+           </button>
+     </div>
+</div>
+</body>
+</html>

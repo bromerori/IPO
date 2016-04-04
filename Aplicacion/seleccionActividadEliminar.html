@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IPO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: orange">
+ <header>
+      <div class="container-fluid">
+           <div class="row">
+               <div class="btn-group" style="float:left">
+                     <button type="button"
+                     class="btn btn-primary dropdown-toggle"
+                     data-toggle="dropdown" style="height:60px; width:60px" >
+                     <span class="glyphicon glyphicon-cog">
+                     </span>
+                     </button>
+                     <ul class="dropdown-menu" role="menu">
+                         <li><a href="#">Idioma</a>
+                         </li>
+                         <li><a href="#">Volumen</a>
+                         </li>
+                     </ul>
+                </div>
+                    <h1 class="text-center" style="color:white"> Selecciona la actividad que quieres eliminar</h1>
+                    <br>
+            </div>
+      </div>
+</header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+               <form class="form-horizontal">
+                     <div class="form-group">
+                       <label for="select" class="control-label col-xs-3"> Curso y clase: </label>
+                       <div class="col-xs-9">
+                           <select id="curso">
+                               <option> </option>
+                               <option>5º de primaria</option>
+                               <option>6º de primaria</option>
+                           </select>   
+                           <select id="clase">
+                               <option> </option>
+                               <option>A</option>
+                               <option>B</option>
+                               <option>C</option>
+                           </select>  
+                           <br>
+                           <br>
+                       </div>
+                   </div>
+                   <div class="form-group">
+                       <label for="select" class="control-label col-xs-3"> Temario: </label>
+                       <div class="col-xs-9">
+                           <select id="curso">
+                               <option> </option>
+                                <option>Cuerpo humano</option>
+                               <option>Partes de plantas</option>
+                                <option>Animales vertebrados/invertebrados</option>
+                               <option>Geografía</option>
+                                <option>Historia</option>
+                               <option>Partes de la tierra</option>
+                           </select>   
+                       </div>
+                   </div>
+                   <div class="form-group">
+                       <label for="select" class="control-label col-xs-3"> Tipo de actividad: </label>
+                       <div class="col-xs-9">
+                           <select id="curso">
+                               <option> </option>
+                                <option>Test</option>
+                               <option>Unir con flechas</option>
+                                <option>Rellenar huecos</option>
+                           </select>   
+                       </div>
+                   </div>
+                   <div class="form-group">
+                       <label for="select" class="control-label col-xs-3"> Nombre de la actividad: </label>
+                       <div class="col-xs-9">
+                           <select id="curso">
+                               <option> </option>
+                                <option>Test</option>
+                               <option>Músculos del cuerpo humano</option>
+                                <option>huesos del cuerpo humano</option>
+                                <option>Sistema nervioso humano</option>
+                                <option>Sistema digestivo</option>
+                           </select>   
+                       </div>
+                     </div>
+                     <div align="center">
+                         <button type="button" class="btn btn-primary disabled btn-lg"onclick=" window.location.href='#'" >Eliminar la actividad</button>
+                    </div>
+            </form>
+        </div>
+    </div>
+        <div class="row">
+           <button type="button" class="btn btn-primary" style="height: 60px; width:60px; float: left" onclick=" window.location.href='actividadesProfesor.html'"> <span class="glyphicon glyphicon-circle-arrow-left"></span>
+           </button>
+     </div>
+</div>
+</body>
+</html>
