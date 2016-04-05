@@ -5,45 +5,115 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="alumno.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
-<body style="background-color: orange">
- <header>
-      <div class="container-fluid">
-           <div class="row">
-               <div class="btn-group" style="float:left">
-                     <button type="button"
-                     class="btn btn-primary dropdown-toggle"
-                     data-toggle="dropdown" style="height:60px; width:60px" >
-                     <span class="glyphicon glyphicon-cog">
-                     </span>
-                     </button>
-                     <ul class="dropdown-menu" role="menu">
-                         <li><a href="#">Idioma</a>
-                         </li>
-                         <li><a href="#">Volumen</a>
-                         </li>
-                     </ul>
+<body style="background-color: #FFB253">
+    <header>
+                 <div class="container-fluid">
+           <div class="row">       
+                <div class="col-md-6">
+                   <div class="col-md-4">
+                    <a href="#" data-toggle="modal" data-target="#modal-config"><span  class="glyphicon glyphicon-cog"></span></a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-config" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Configuración</h4>
+
+                                </div>
+                                <div class="modal-body">
+                                    <h4>¿En que idioma prefieres esta pantalla?</h4>
+                                    <div class="row">    
+                                        <div class="col-md-2">
+                                            <a href="Alumno.html"><img src="img/spain.png" class="img-responsive"></a>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <a href="Student.html"><img src="img/english.png" class="img-responsive"></a>
+                                        </div>
+                                    </div>
+                                    <br><h4>Deseo modificar mis datos.</h4>
+                                    <button type="button" class="btn btn-success btn-lg" data-toggle="collapse" data-target="#modificar-datos">Modificar datos</button>
+                                    <div id="modificar-datos" class="collapse">
+                                        <form role="form" id="form-alumno">
+                                            <div class="form-group">
+                                                <br><label for="nombre">Nombre:</label>
+                                                <input type="nombre" class="form-control input-sm" id="nombre">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="apellidos">Apellidos:</label>
+                                                <input type="apellidos" class="form-control input-sm" id="apellidos">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="pwd">Contraseña:</label>
+                                                <input type="password" class="form-control input-sm" id="pwd">
+                                            </div>
+                                            <button type="submit" data-toggle="collapse"  class="btn btn-success btn-block"><a href="Alumno.html">Guardar</a></button>  
+                                        </form>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-6"><h3>Bienvenid@: profesor/a</h3></div>
+                    
+                    
                 </div>
-                    <h1 class="text-center" style="color:white"> Selecciona la actividad que quieres eliminar</h1>
-                    <br>
+                <div class="col-md-6">
+                        <a href="#" data-toggle="modal" data-target="#modal-salir" id="log-out"><span class="glyphicon glyphicon-log-out"></span></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal-salir" role="dialog">
+                            <div class="modal-dialog" id="salir">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">¿Estas segur@ de que desea salir?</h4>
+
+                                    </div>
+                                    <div class="modal-body">
+                                        <button type="button" class="btn btn-success btn-lg"><a href="InicioSesion.html">Sí</a></button>
+                                        <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">No</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
             </div>
-      </div>
+        <div class="container">
+            <div class="row">   
+                <div class="col-md-12" id="cabecera"><h1>Eliminar actividad</h1></div>
+            </div>    
+        </div>
+        <br>    
 </header>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
+            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2" style="
+            margin-top: 30px;
+            //padding: 10px;
+            background-color: #75A9F9;
+            color: white;
+              height: 500px">
+               <h2 class="text-center">Selecciona la actividad que deseas eliminar</h2>
+               <br>
+               <br>
                <form class="form-horizontal">
                      <div class="form-group">
                        <label for="select" class="control-label col-xs-3"> Curso y clase: </label>
                        <div class="col-xs-9">
-                           <select id="curso">
+                           <select id="curso" style="color:black">
                                <option> </option>
                                <option>5º de primaria</option>
                                <option>6º de primaria</option>
                            </select>   
-                           <select id="clase">
+                           <select id="clase" style="color:black">
                                <option> </option>
                                <option>A</option>
                                <option>B</option>
@@ -56,7 +126,7 @@
                    <div class="form-group">
                        <label for="select" class="control-label col-xs-3"> Temario: </label>
                        <div class="col-xs-9">
-                           <select id="curso">
+                           <select id="curso" style="color:black">
                                <option> </option>
                                 <option>Cuerpo humano</option>
                                <option>Partes de plantas</option>
@@ -70,7 +140,7 @@
                    <div class="form-group">
                        <label for="select" class="control-label col-xs-3"> Tipo de actividad: </label>
                        <div class="col-xs-9">
-                           <select id="curso">
+                           <select id="curso" style="color:black">
                                <option> </option>
                                 <option>Test</option>
                                <option>Unir con flechas</option>
@@ -81,7 +151,7 @@
                    <div class="form-group">
                        <label for="select" class="control-label col-xs-3"> Nombre de la actividad: </label>
                        <div class="col-xs-9">
-                           <select id="curso">
+                           <select id="curso" style="color:black">
                                <option> </option>
                                 <option>Test</option>
                                <option>Músculos del cuerpo humano</option>
@@ -92,14 +162,14 @@
                        </div>
                      </div>
                      <div align="center">
-                         <button type="button" class="btn btn-primary disabled btn-lg"onclick=" window.location.href='#'" >Eliminar la actividad</button>
+                         <button type="button" class="btn btn-primary disabled btn-lg"onclick=" window.location.href='#'"style="background-color: #2ED74A" >Eliminar la actividad</button>
                     </div>
             </form>
         </div>
     </div>
         <div class="row">
-           <button type="button" class="btn btn-primary" style="height: 60px; width:60px; float: left" onclick=" window.location.href='actividadesProfesor.html'"> <span class="glyphicon glyphicon-circle-arrow-left"></span>
-           </button>
+           <a href="actividadesProfesor.html"> <span class="glyphicon glyphicon-circle-arrow-left"></span>
+           </a>
      </div>
 </div>
 </body>

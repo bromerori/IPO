@@ -5,95 +5,152 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="alumno.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body style="background-color: orange">
- <header>
-      <div class="container-fluid">
-           <div class="row">
-               <div class="btn-group" style="float:left">
-                     <button type="button"
-                     class="btn btn-primary dropdown-toggle"
-                     data-toggle="dropdown" style="height:60px; width:60px" >
-                     <span class="glyphicon glyphicon-cog">
-                     </span>
-                     </button>
-                     <ul class="dropdown-menu" role="menu">
-                         <li><a href="#">Idioma</a>
-                         </li>
-                         <li><a href="#">Volumen</a>
-                         </li>
-                     </ul>
+<body style="background-color: #FFB253">
+    <header>
+                 <div class="container-fluid">
+           <div class="row">       
+                <div class="col-md-6">
+                   <div class="col-md-4">
+                    <a href="#" data-toggle="modal" data-target="#modal-config"><span  class="glyphicon glyphicon-cog"></span></a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-config" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Configuración</h4>
+
+                                </div>
+                                <div class="modal-body">
+                                    <h4>¿En que idioma prefieres esta pantalla?</h4>
+                                    <div class="row">    
+                                        <div class="col-md-2">
+                                            <a href="Alumno.html"><img src="img/spain.png" class="img-responsive"></a>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <a href="Student.html"><img src="img/english.png" class="img-responsive"></a>
+                                        </div>
+                                    </div>
+                                    <br><h4>Deseo modificar mis datos.</h4>
+                                    <button type="button" class="btn btn-success btn-lg" data-toggle="collapse" data-target="#modificar-datos">Modificar datos</button>
+                                    <div id="modificar-datos" class="collapse">
+                                        <form role="form" id="form-alumno">
+                                            <div class="form-group">
+                                                <br><label for="nombre">Nombre:</label>
+                                                <input type="nombre" class="form-control input-sm" id="nombre">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="apellidos">Apellidos:</label>
+                                                <input type="apellidos" class="form-control input-sm" id="apellidos">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="pwd">Contraseña:</label>
+                                                <input type="password" class="form-control input-sm" id="pwd">
+                                            </div>
+                                            <button type="submit" data-toggle="collapse"  class="btn btn-success btn-block"><a href="Alumno.html">Guardar</a></button>  
+                                        </form>
+                                    </div>        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-6"><h3>Bienvenid@: profesor/a</h3></div>
+                    
+                    
                 </div>
-                    <h1 class="text-center" style="color:white"> Bienvenido!</h1>
-                    <br>
+                <div class="col-md-6">
+                        <a href="#" data-toggle="modal" data-target="#modal-salir" id="log-out"><span class="glyphicon glyphicon-log-out"></span></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modal-salir" role="dialog">
+                            <div class="modal-dialog" id="salir">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">¿Estas segur@ de que desea salir?</h4>
+
+                                    </div>
+                                    <div class="modal-body">
+                                        <button type="button" class="btn btn-success btn-lg"><a href="InicioSesion.html">Sí</a></button>
+                                        <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">No</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
             </div>
-      </div>
+        <div class="container">
+            <div class="row">   
+                <div class="col-md-12" id="cabecera"><h1>¡Bienvenido!</h1></div>
+            </div>    
+        </div>
+        <br>    
 </header>
    <div class="container-fluid">
       <div class="row">
-          <div class="container">
-          <div class="col-md-3 col-md-offset-3 col-sm-5 col-sm-offset-1"  style="vertical-align: middle">
-            <div align="center">
+          <div class="col-md-6 col-md-offset-3 col-sm-5 col-sm-offset-1">
+             <div class="col-md-6 col-sm-5">
+                 <div align="center">
                   <button type="button" class="btn btn-primary" style="height: 200px;
                  width: 250px;
                  border: 5px solid #6495ED;
-                 background-color: #BCD2EE;
+                 background-color: #75A9F9;
                  border-radius: 15px;
                  margin: 0 auto;
-                 text-align: center;" onclick=" window.location.href='datosAlumnos.html' ">Datos personales de alumnos</button>
+                                                                       text-align: center;" onclick=" window.location.href='datosAlumnos.html' "><h3>Datos personales</h3><h3> de alumnos</h3></button>
                  <br>
                  <br>
                  <br>
-            </div>
-             <div align="center">
                  <button type="button" class="btn btn-primary" style="height: 200px;
                  width: 250px;
                  border: 5px solid #6495ED;
-                 background-color: #BCD2EE;
+                 background-color: #75A9F9;
                  border-radius: 15px;
                  margin: auto;
-                 text-align: center;" onclick=" window.location.href='gestionAlumnos.html' ">Gestión de alumnos </button>
+                                                                      text-align: center;" onclick=" window.location.href='gestionAlumnos.html' "><h3>Gestión de alumnos</h3> </button>
                   <br>
                  <br>
                  <br>
-             </div>
-          </div>
-          <div class="col-md-3 col-sm-5">
-             <div align="center">
+                 </div>
+            </div>
+            <div class="col-md-6 col-sm-5">
+                 <div align="center">
                   <button type="button" class="btn btn-primary" style="height: 200px;
                  width: 250px;
                  border: 5px solid #6495ED;
-                 background-color: #BCD2EE;
+                 background-color: #75A9F9;
                  border-radius: 15px;
                  margin: auto;
-                 text-align: center;" onclick=" window.location.href='#' ">Estadisticas</button>
+                                                                       text-align: center;" onclick=" window.location.href='#' "><h3>Estadisticas</h3></button>
                  <br>
                  <br>
                  <br>
-             </div>
-              <div align="center">
                   <button type="button" class="btn btn-primary" style="height: 200px;
                  width: 250px;
                  border: 5px solid #6495ED;
-                 background-color: #BCD2EE;
+                 background-color: #75A9F9;
                  border-radius: 15px;
                  margin-left: auto;
                  margin-right: auto;
-                 text-align: center;" onclick=" window.location.href='actividadesProfesor.html' ">actividades</button>
+                                                                       text-align: center;" onclick=" window.location.href='actividadesProfesor.html' "><h3>actividades</h3></button>
                   <br>
                  <br>
-                 <br>
-             </div>
+              </div>
+              </div>
          </div>
-        </div>
      </div>
       <div class="row">
 
-               <button type="button" class="btn btn-primary" style="height: 60px; width:60px; float: left" onclick=" window.location.href='inicioSesion.html'"> <span class="glyphicon glyphicon-circle-arrow-left"></span>
-           </button>
+               <a href="inicioSesion.html"> <span class="glyphicon glyphicon-circle-arrow-left"></span>
+           </a>
      </div>
  </div>
 </body>
