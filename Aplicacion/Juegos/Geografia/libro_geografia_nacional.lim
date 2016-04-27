@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="aplausos.mp3" modo="1" >CORRECTO</correcto>
+        <incorrecto son="grillos.mp3" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>espanna.jpg</imaxe>
+              <texto>España está compuesta por...</texto>
+              <resp texto="¡Correcto!" valor="1">17 comunidades autónomas y 2 ciudades autónomas</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">21 comunidades autónomas</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">17 ciudades autónomas y 2 comunidades autónomas</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">15 ciudades autónomas</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>extremadura.gif</imaxe>
+              <texto>¿Cuántas provincias forman Extremadura?</texto>
+              <resp texto="¡Correcto!" valor="1">2</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">1</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">8</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">6</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>oceanos_y_mares.jpg</imaxe>
+              <texto>¿Cuáles son los océanos y mares que bañan España?</texto>
+              <resp texto="¡Correcto!" valor="1">Océano Atlántico, Mar Mediterráneo y Mar Cantábrico</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Océano Índico</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Mar Mediterráneo y Mar Cantábrico</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Océano Atlántico, Mar Mediterráneo y Guadalquivir</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>islas_canarias.jpg</imaxe>
+              <texto>¿Qué islas pertenecen a España?</texto>
+              <resp texto="¡Correcto!" valor="1">Islas Canarias e Islas Baleares</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Córcega y Cerdeña</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Ibiza e Islas Canarias</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Formentera y Cabrera</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>cordilleras_beticas.jpg</imaxe>
+              <texto>¿Qué cordillera muy famosa se encuentra en Andalucia?</texto>
+              <resp texto="¡Correcto!" valor="1">Cordilleras Béticas</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Sierrra Morena</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Cordilleras Catalanas</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Sistema Ibércico</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>11</tipo>
+            <nonpasar>1</nonpasar>
+              <modo>3</modo>
+              <cousa nome="GALICIA">galicia.jpg</cousa>
+              <cousa nome="COMUNIDAD DE MADRID">comunidad-de-madrid.jpg</cousa>
+              <cousa nome="COMUNIDAD VALENCIANA">comunidad_valenciana.jpg</cousa>
+              <cousa nome="MURCIA">murcia.jpg</cousa>
+              <cousa nome="CATALUÑA">catalunna.jpg</cousa>
+        </paxina>
+    </libro>
+</lim>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="aplausos.mp3" modo="1" >WELL DONE</correcto>
+        <incorrecto son="grillos.mp3" modo="1" >TRY AGAIN</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>hitler.png</imaxe>
+              <texto>How long did the Second World War?</texto>
+              <resp texto="Well done!" valor="1">1939-1945</resp>
+              <resp texto="Try again" valor="0">1914-1918</resp>
+              <resp texto="Try again" valor="0">1989-1991</resp>
+              <resp texto="Try again" valor="0">1951-1956</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>edad_antigua.jpg</imaxe>
+              <texto>What event was relevant in the end of the Old Age and the beginning of the Middle Ages?</texto>
+              <resp texto="Well done!" valor="1">The fall of the Roman Empire</resp>
+              <resp texto="Try again" valor="0">The appearance of fire</resp>
+              <resp texto="Try again" valor="0">Humans ceased to live in tribes</resp>
+              <resp texto="Try again" valor="0">Humans began to be more studious</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>religion.png</imaxe>
+              <texto>What are the main religions practiced in the world?</texto>
+              <resp texto="Well done!" valor="1">Buddhism, Judaism, Christianity, Islam and Hinduism</resp>
+              <resp texto="Try again" valor="0">One for each country in the world</resp>
+              <resp texto="Try again" valor="0">Christianity and Hinduism</resp>
+              <resp texto="Try again" valor="0">Only Islamism due to the large number of citizens in Islamic countries</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>feudalismo.jpg</imaxe>
+              <texto>How was society organized in the Middle Ages?</texto>
+              <resp texto="Well done!" valor="1">In fiefdoms</resp>
+              <resp texto="Try again" valor="0">In communities</resp>
+              <resp texto="Try again" valor="0">Monarchical way</resp>
+              <resp texto="Try again" valor="0">In very close communities</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>luna.jpg</imaxe>
+              <texto>What year man traveled to the moon for the first time?</texto>
+              <resp texto="Well done!" valor="1">1961</resp>
+              <resp texto="Try again" valor="0">2000</resp>
+              <resp texto="Try again" valor="0">1994</resp>
+              <resp texto="Try again" valor="0">1985</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>44</tipo>
+            <nonpasar>1</nonpasar>
+              <cousa nome="T-REX: Its measures were 12.3 meters and its main feature was that it had small upper limbs. It was carnivorous." son="">T-Rex_2.png</cousa>
+              <cousa nome="TRICERATOPS: It is believed that its measures were between 7 and 9 meters long and 3 meters high. It had large horns that it used for defense against predators." son="">triceratorps.jpg</cousa>
+              <cousa nome="STEGOSAURUS: It measured 9 meters long and 4 meters wide. It had a large and long back. Its plates kept the heat in its body. It had a tail with spikes to defend and keep its food." son="">Estegosaurio.jpg</cousa>
+        </paxina>
+    </libro>
+</lim>

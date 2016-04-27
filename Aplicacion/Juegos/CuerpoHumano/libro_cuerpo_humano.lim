@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="aplausos.mp3" modo="1" >CORRECTO</correcto>
+        <incorrecto son="grillos.mp3" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>esqueleto-humano-261x300.jpg</imaxe>
+              <texto>¿Cuál es el número de huesos en el cuerpo humano?</texto>
+              <resp texto="Inténtalo de nuevo" valor="0">Más de 300</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">22</resp>
+              <resp texto="¡Correcto!" valor="1">206</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">476</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>De-la-cabeza-a-los-pies-el-cuerpo-humano-en-cifras-01.jpg</imaxe>
+              <texto>¿Cuántos aparatos sitemas has en el cuerpo humano?</texto>
+              <resp texto="¡Correcto!" valor="1">5</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">8</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">1</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">24</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>lengua.jpg</imaxe>
+              <texto>¿A través de qué estructuras, que se encuentran en la lengua, podemos percibir los sabores ácido, amargo, dulce y salado?</texto>
+              <resp texto="¡Correcto!" valor="1">Papilas gustativas</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Fosas nasales</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Huellas dactilares</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Glandulas sudoriparas</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>orejita.jpg</imaxe>
+              <texto>¿Cuáles son las partes de oido?</texto>
+              <resp texto="¡Correcto!" valor="1">Oido externo, oido medio y oido externo</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Laringe y faringe</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Intestino delgado e intestino grueso</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Faringe, pulmones y alveolos</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>orejita.jpg</imaxe>
+              <texto>¿Qué es una articulación?</texto>
+              <resp texto="¡Correcto!" valor="1">Es la unión de dos huesos</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Es un tipo de músculo</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Es un hueso especial que se encuentra en el cráneo</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Es la unión de dos músculos</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>4</tipo>
+              <modo>1</modo>
+              <sopa enun="Hueso más largo del cuerpo humano">femur</sopa>
+              <sopa enun="Parte de color del ojo">iris</sopa>
+              <sopa enun="Órganos productores de orina">riñones</sopa>
+              <sopa enun="Órgano que elimina toxinas">higado</sopa>
+              <sopa enun="Huesos mas duros del cuerpo humano">dientes</sopa>
+              <sopa enun="Se encarga de hacer la digestión">estomago</sopa>
+              <sopa enun="Protegen al sistema respiratorio">costillas</sopa>
+              <sopa enun="Órgano del ap reproductor masculino">pene</sopa>
+              <enunciado>1</enunciado>
+              <colorea>1</colorea>
+              <cadro>0</cadro>
+        </paxina>
+    </libro>
+</lim>

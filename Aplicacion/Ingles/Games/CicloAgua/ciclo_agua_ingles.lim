@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="aplausos.mp3" modo="1" >WELL DONE</correcto>
+        <incorrecto son="grillos.mp3" modo="1" >TRY AGAIN</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>sublimacion.jpg</imaxe>
+              <texto>How is it called the change from gaseous state into solid state?</texto>
+              <resp texto="Well done!" valor="1">Sublimation</resp>
+              <resp texto="Try again" valor="0">Solidification</resp>
+              <resp texto="Try again" valor="0">Melting</resp>
+              <resp texto="Try again" valor="0">Condensation</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>acuifero.jpg</imaxe>
+              <texto>What large underground deposits are formed by water seeping into the ground?</texto>
+              <resp texto="Try again" valor="0">Undercurrents</resp>
+              <resp texto="Try again" valor="0">Inland lakes</resp>
+              <resp texto="Well done!" valor="1">Aquifers</resp>
+              <resp texto="Try again" valor="0">Underground drums</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>ciclo_del_aguaImagen.gif</imaxe>
+              <texto>What are the stages of water cycle?</texto>
+              <resp texto="Well done!" valor="0">Evaporation, condensation, precipitation and water retunr to sea</resp>
+              <resp texto="Try again" valor="0">Evaporation, condensation, precipitation and surface runoff</resp>
+              <resp texto="Try again" valor="0">Evaporation, condensation and</resp>
+              <resp texto="Try again" valor="0">Containment</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>granizo.jpg</imaxe>
+              <texto>How is hail formed?</texto>
+              <resp texto="Well done" valor="1">Inside the clouds, where drops are very cold water, became in ice to ascend to the highest areas of the clouds due to currents that force them to go up and down</resp>
+              <resp texto="Try again" valor="0">When several drops of water get together within the same cloud</resp>
+              <resp texto="Try again" valor="0">Because raindrops fall at high speed in the clouds that they form</resp>
+              <resp texto="Try again" valor="0">When drops are formed in the clouds of the highest layers of the atmosphere</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>fusion.jpg</imaxe>
+              <texto>What is melting?</texto>
+              <resp texto="Well done!" valor="1">Change from solid state into liquid state</resp>
+              <resp texto="Try again" valor="0">Change from gaseous state into solid state</resp>
+              <resp texto="Try again" valor="0">Change from gaseous state into liquid state</resp>
+              <resp texto="Try again" valor="0">Change from solid state into gaseous state</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>3</tipo>
+              <imaxe>ciclo_agua_ingles.jpg</imaxe>
+              <filas>5</filas>
+              <columnas>5</columnas>
+              <reixa>1</reixa>
+            <forma>1</forma>
+        </paxina>
+    </libro>
+</lim>

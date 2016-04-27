@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+       <title>Tema</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="tema.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+           
+    <body>
+        <!--CABECERA DE LA PAGINA-->   
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6"> 
+                    <div class="col-md-4">
+                        <a href="#" data-toggle="modal" data-target="#modal-config"><span class="glyphicon glyphicon-cog"></span></a>
+                        <!--Modal configuracion-->
+                        <div class="modal fade" id="modal-config" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal configuracion content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Configuración</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4>¿En que idioma prefieres esta pantalla?</h4>
+                                        <div class="row">    
+                                            <div class="col-md-2">
+                                                <a href="Alumno.html"><img src="img/spain.png" class="img-responsive"></a>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <a href="Student.html"><img src="img/english.png" class="img-responsive"></a>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>    
+                            </div>
+                        </div>
+                        <a href="#" data-toggle="modal" data-target="#modal-instrucciones"><span class="glyphicon glyphicon-info-sign"></span></a>
+                        <!-- Modal info-->
+                        <div class="modal fade" id="modal-instrucciones" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal info content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">¿Tienes alguna duda?</h4>
+
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>1) Debes realizar el pequeño test sobre el tema.</p>
+                                        <p>2) Una vez que realices de forma correcta el test deshabilitaras el juego.</p>
+                                        <p>* Si tienes alguna duda puedes ver el vídeo explicativo sobre el tema. ¡SUERTE!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>        
+                    </div>
+                    <div class="col-md-6"><h3>Bienvenid@: Héctor</h3></div>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" data-toggle="modal" data-target="#modal-salir" id="log-out"><span class="glyphicon glyphicon-log-out"></span></a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-salir" role="dialog">
+                        <div class="modal-dialog" id="salir">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">¿Estas segur@ de que desea salir?</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <button type="button" class="btn btn-success btn-lg"><a href="InicioSesion.html">Sí</a></button>
+                                    <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">No</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>    
+        </div>
+        
+        <!--CUERPO DE LA PAGINA -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" align="center">
+                   
+                    <h5>Ahora es el momento de poner en práctica tus conocimietos.</h5>
+                    <h5>En primer lugar, mírate el vídeo para recordar lo que el profe explicó en clase sobre este tema</h5>
+                    <h5>A continuación sólo tendrás que darle al siguiente botón: <span class="glyphicon glyphicon-circle-arrow-right"></span> para poder comenzar el test sobre el tema</h5>
+                    <h5>Una vez que realices el test de forma correcta, habrás desbloqueado el juego ¡SUERTE!</h5><br>  
+                     <h3>ANIMALES VERTEBRADOS E INVERTEBRADOS</h3>
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/xUbYlR6Dc7c" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>    
+        </div>
+        <footer>
+           <div class="col-md-6">
+               <a href="Alumno.html"> <span class="glyphicon glyphicon-circle-arrow-left"></span></a>
+            </div>
+            <div class="col-md-6" align="right">
+               <a href="Juegos/Vertebrados-Invertebrados/vertebrados_e_invertebrados.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+            </div>   
+            
+        </footer>    
+    </body>
+    
+</html>    

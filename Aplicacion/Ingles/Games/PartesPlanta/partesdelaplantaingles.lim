@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>FFFFFF</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>400040</cortexto>
+        <logo>logoPlantas.jpg</logo>
+        <informe>1</informe>
+        <botonson>1</botonson>
+        <maximizar>1</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="aplausos.mp3" modo="1" >WELL DONE</correcto>
+        <incorrecto son="grillos.mp3" modo="1" >TRY AGAIN</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <cabeceira>Completa este breve test para comprobar si has comprendido el temario</cabeceira>
+              <imaxe>perianto.jpg</imaxe>
+              <texto>What parts of a flower form the perianth?</texto>
+              <resp texto="Well done!" valor="1">Corolla, petals, calyx and sepals</resp>
+              <resp texto="Try again" valor="0">Stamens, filament and anther</resp>
+              <resp texto="Try again" valor="0">Carpel, stigma and gnomon</resp>
+              <resp texto="Try again" valor="0">Stamens, filament y gnomon</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <cabeceira>Completa este breve test para comprobar si has comprendido el temario</cabeceira>
+              <imaxe>frutos.jpg</imaxe>
+              <texto>What is the main purpose of the plants' fruit?</texto>
+              <resp texto="Well done!" valor="0">It contains seeds until they mature and then it contributes to disseminate</resp>
+              <resp texto="Try again" valor="0">It contains seeds until they mature and then feds the plant itself</resp>
+              <resp texto="Try again" valor="0">It is used to fertilize the soil of the plant, then the plant extracts minerals and water</resp>
+              <resp texto="Try again" valor="0">It is a fundamental element in the process of photosynthesis</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <cabeceira>Completa este breve test para comprobar si has comprendido el temario</cabeceira>
+              <imaxe>estambres.jpg</imaxe>
+              <texto>What are the stamens?</texto>
+              <resp texto="Well done!" valor="1">Male reproductive organ of some flowers, consisting of filaments that hold anther which contains pollen</resp>
+              <resp texto="Try again" valor="0">Female reproductive organ of most flowers, it is bottle-shaped and is usually at its center</resp>
+              <resp texto="Try again" valor="0">It is a corolla&apos;s part of a flower. It is the innest part of the perianth, which comprises the sterile part of a flower </resp>
+              <resp texto="Try again" valor="0">Plant&apos;s organ that grows in the opposite direction to the root and thart supports the branches, leaves, flowers and fruits</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <cabeceira>Completa este breve test para comprobar si has comprendido el temario</cabeceira>
+              <imaxe>raices.jpg</imaxe>
+              <texto>What substances take plats' roots from the soil they grow up?
+</texto>
+              <resp texto="Well done!" valor="1">Water and mirenal salts</resp>
+              <resp texto="Try again" valor="0">Nutrients</resp>
+              <resp texto="Try again" valor="0">Raw sap </resp>
+              <resp texto="Try again" valor="0">Raw sap and elaborated sap</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <cabeceira>Completa este breve test para comprobar si has comprendido el temario</cabeceira>
+              <imaxe>fotosintesis.jpg</imaxe>
+              <texto>What is photosynthesis?</texto>
+              <resp texto="Well done!" valor="1">It is the chemical process that occurs in plants with chlorophyl and allows, thanks to the ligtht energy, transforming an inorganic substrate into organic  matter which cointains energy</resp>
+              <resp texto="Try again" valor="0">It is the way that plants have to reproduce</resp>
+              <resp texto="Try again" valor="0">The process by which plants are able to expel pollen</resp>
+              <resp texto="Try again" valor="0">It is the process by which only plants with flowes feed themselves</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>20</tipo>
+              <imaxe>partesDeLaPlanta.jpg</imaxe>
+              <modo>9</modo>
+              <etiqueta posx="226" posy="265">Roots</etiqueta>
+              <etiqueta posx="224" posy="195">Stem</etiqueta>
+              <etiqueta posx="224" posy="87">Branch</etiqueta>
+              <etiqueta posx="27" posy="67">Flower </etiqueta>
+              <etiqueta posx="23" posy="99">Leaf</etiqueta>
+              <etiqueta posx="25" posy="184">Fruit</etiqueta>
+        </paxina>
+    </libro>
+</lim>

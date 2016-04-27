@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="aplausos.mp3" modo="1" >WELL DONE</correcto>
+        <incorrecto son="grillos.mp3" modo="1" >WRONG</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>esqueleto-humano-261x300.jpg</imaxe>
+              <texto>How many bones are there in the human body?</texto>
+              <resp texto="Well done!" valor="0">206</resp>
+              <resp texto="Try again" valor="0">22</resp>
+              <resp texto="Try again" valor="0">476</resp>
+              <resp texto="Try again" valor="0">More than 300</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>De-la-cabeza-a-los-pies-el-cuerpo-humano-en-cifras-01.jpg</imaxe>
+              <texto>How many systems are there in the human body?</texto>
+              <resp texto="Well done!" valor="0">5</resp>
+              <resp texto="Try again" valor="0">8</resp>
+              <resp texto="Try again" valor="0">1</resp>
+              <resp texto="Try again" valor="0">24</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>lengua.jpg</imaxe>
+              <texto>Through what structures, find in the tongue, can we taste the flavor of bitter, sweet, sour and salty?</texto>
+              <resp texto="Well done!" valor="0">Taste buds</resp>
+              <resp texto="Try again" valor="0">Fingerprints</resp>
+              <resp texto="Try again" valor="0">Sweat glands</resp>
+              <resp texto="Try again" valor="0">Nostrils</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>orejita.jpg</imaxe>
+              <texto>What are the parts in our ear?</texto>
+              <resp texto="Well done!" valor="0">Outer ear, middle ear and inner ear</resp>
+              <resp texto="Try again" valor="0">Small intestine and large intestine</resp>
+              <resp texto="Try again" valor="0">Larynx and pharynx</resp>
+              <resp texto="Try again" valor="0">Pharynx, lungs and alveolos</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>articulaciones.jpg</imaxe>
+              <texto>What is a joint?</texto>
+              <resp texto="Well done!" valor="0">The join of two bones</resp>
+              <resp texto="Try again" valor="0">The join of two muscles</resp>
+              <resp texto="Try again" valor="0">It is a special bone which is in the skull</resp>
+              <resp texto="Try again" valor="0">It is a kind of muscle</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>4</tipo>
+            <nonpasar>1</nonpasar>
+              <modo>1</modo>
+              <sopa enun="Longest bone in the human body">femur</sopa>
+              <sopa enun="Part of eyes which has colour">iris</sopa>
+              <sopa enun="Organs which produce urine">kidneys</sopa>
+              <sopa enun="Organ which removes toxins">liver</sopa>
+              <sopa enun="Strongest bones in the human body ">teeth</sopa>
+              <sopa enun="Organ which which digests">stomach</sopa>
+              <sopa enun="They protect the respiratory system">ribs</sopa>
+              <sopa enun="Organ in the male reproductive system">penis</sopa>
+              <enunciado>1</enunciado>
+              <colorea>1</colorea>
+              <cadro>0</cadro>
+        </paxina>
+    </libro>
+</lim>

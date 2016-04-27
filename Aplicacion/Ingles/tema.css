@@ -1,0 +1,55 @@
+body{
+    background-color: #FFB253;
+}
+
+
+
+.glyphicon{
+    font-size: 50px;
+    padding: 10px;
+}
+
+#log-out{
+margin-left: 85%;
+}
+
+#salir{
+    width: 350px;
+}
+
+#cabecera{
+    text-align: center;
+    color: white;
+    background-color: #FF4042;
+    font-size: 30px;
+    padding: 20px;
+    font-size: 10em;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.col-md-6, .col-md-4{
+    padding: 0px;
+}
+
+#video{
+    //margin-top: 25%;
+    margin-left: 50px;
+}
+
+.jumbotron{
+    width: 550px;
+    background-color: #75A9F9;
+}
+
+#explicacion{
+    width: 500px;
+    margin-top: 5%;
+    margin-left: 50px;  
+}
+
+.boton-test{
+    padding-bottom: 10px;        
+}

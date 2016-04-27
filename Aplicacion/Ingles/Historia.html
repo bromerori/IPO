@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+       <title>Tema</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="tema.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+           
+    <body>
+        <!--CABECERA DE LA PAGINA-->   
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6"> 
+                    <div class="col-md-4">
+                        <a href="#" data-toggle="modal" data-target="#modal-config"><span class="glyphicon glyphicon-cog"></span></a>
+                        <!--Modal configuracion-->
+                        <div class="modal fade" id="modal-config" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal configuracion content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Settings</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4>What language do you prefer this screen ?</h4>
+                                        <div class="row">    
+                                            <div class="col-md-2">
+                                                <a href="Alumno.html"><img src="img/spain.png" class="img-responsive"></a>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <a href="Student.html"><img src="img/english.png" class="img-responsive"></a>
+                                            </div>
+                                        </div>
+                                    </div>        
+                                </div>    
+                            </div>
+                        </div>
+                        <a href="#" data-toggle="modal" data-target="#modal-instrucciones"><span class="glyphicon glyphicon-info-sign"></span></a>
+                        <!-- Modal info-->
+                        <div class="modal fade" id="modal-instrucciones" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal info content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Do you have any question?</h4>
+
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>1) You must do the little test.</p>
+                                        <p>2) Once you make the test you will desable the game.</p>
+                                        <p>* If you have any questions you can see the explanatory video on the subject. LUCK!.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>        
+                    </div>
+                    <div class="col-md-6"><h3>Welcome: Héctor</h3></div>
+                </div>
+                <div class="col-md-6">
+                    <a href="#" data-toggle="modal" data-target="#modal-salir" id="log-out"><span class="glyphicon glyphicon-log-out"></span></a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal-salir" role="dialog">
+                        <div class="modal-dialog" id="salir">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Are you sure you want to quit ?</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <button type="button" class="btn btn-success btn-lg"><a href="InicioSesion.html">Yes</a></button>
+                                    <button type="button" class="btn btn-danger btn-lg" data-dismiss="modal">No</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>    
+        </div>
+        
+        <!--CUERPO DE LA PAGINA -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12" align="center">
+                   
+                    <h5>Now is the moment to practice your learning .</h5>
+                    <h5>First , look at the video to remember what the teacher said in class about this topic</h5>
+                    <h5>Then you can give the button below : <span class="glyphicon glyphicon-circle-arrow-right"></span> to start the test about the topic</h5>
+                    <h5>Once you perform the test correctly, you will have unlocked the game LUCK !</h5><br>  
+                     <h3>HISTORY</h3>    
+                    <iframe width="500" height="300" src="https://www.youtube.com/embed/IAQAAJo1fI0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>    
+        </div>
+        <footer>
+           <div class="col-md-6">
+               <a href="Student.html"> <span class="glyphicon glyphicon-circle-arrow-left"></span></a>
+            </div>
+            <div class="col-md-6" align="right">
+               <a href="Games/Historia/historia_ingles.html"> <span class="glyphicon glyphicon-circle-arrow-right"></span></a>
+            </div>   
+            
+        </footer>    
+    </body>
+    
+</html>    

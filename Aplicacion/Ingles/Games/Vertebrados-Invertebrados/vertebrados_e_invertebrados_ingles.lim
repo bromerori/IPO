@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="aplausos.mp3" modo="1" >WELL DONE</correcto>
+        <incorrecto son="grillos.mp3" modo="1" >TRY AGAIN</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>27a18467780f74cf7c735443fb14f8bb.jpg</imaxe>
+              <texto>What are the groups of invertebrates with body armor?</texto>
+              <resp texto="Well done!" valor="1">Arthropods, Mollusks and Echinoderms</resp>
+              <resp texto="Try again" valor="0">Viviparous and oviparous</resp>
+              <resp texto="Try again" valor="0">Worm, Porifera and Cnidarians</resp>
+              <resp texto="Try again" valor="0">Mammals, Reptiles, Birds, Fish and Amphibians</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>ovoviviparo.jpg</imaxe>
+              <texto>What does an animal is ovovivíparo?</texto>
+              <resp texto="Well done!" valor="1">It lays eggs, but these remain within the body of the female until the embryo is fully developed</resp>
+              <resp texto="Try again" valor="0">Embryos are gestated in the womb</resp>
+              <resp texto="Try again" valor="0">Responsible for feeding the hatchlings is the father</resp>
+              <resp texto="Try again" valor="0">Breeding remains in the egg until it is mature enough to reproduce</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>celentereo.jpg</imaxe>
+              <texto>What is the main difference between the two main groups of coelentarates?</texto>
+              <resp texto="Well done!" valor="1">Jellyfish floating in the water while polyps are fixed to an object</resp>
+              <resp texto="Try again" valor="0">Polyps float in the water while jellyfish are fixed to an object</resp>
+              <resp texto="Try again" valor="0">Polyps are able to breathe on the surface while jellyfish are no able</resp>
+              <resp texto="Try again" valor="0">Jellyfish are poisonous and polyps can not damage to humans</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>carnivoro.jpg</imaxe>
+              <texto>What kind of feedin have the vertebrates?</texto>
+              <resp texto="Well done!" valor="1">Carnivorous, Herbivorous, Omnivorous and Insectivorous</resp>
+              <resp texto="Try again" valor="0">Carnivorous and Herbivorous</resp>
+              <resp texto="Try again" valor="0">All vertebrates animals are omnivores</resp>
+              <resp texto="Try again" valor="0">Carnivorous, Herbivorous and Omnivorous</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>vertebrados_e_invertebrados.jpg</imaxe>
+              <texto>What is the main difference between vertebrates and invertebrates?</texto>
+              <resp texto="Well done!" valor="1">Te skeleton of vertebrates is composed of head,trunk and extremities while invertebrates have an exoskeleton</resp>
+              <resp texto="Try again" valor="0">The amount of vertebrate animals is superior than the amount of invertebrate animals</resp>
+              <resp texto="Try again" valor="0">Invertebrates animals only live in water while vertebrates animals are only terrestrial</resp>
+              <resp texto="Try again" valor="0">The reproduction of invertebrates and vertebrates is totally different</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>7</tipo>
+            <nonpasar>1</nonpasar>
+              <caixa1>INVERTEBRATE ANIMALS</caixa1>
+              <caixa2>VERTEBRATE ANIMALS</caixa2>
+              <mini caixa="1">juegoinvert.jpg</mini>
+              <mini caixa="2">juegovert.jpg</mini>
+              <mini caixa="1">juegoinvert2.jpg</mini>
+              <mini caixa="2">juegovert2.jpg</mini>
+              <mini caixa="1">juegoinvert3.jpg</mini>
+              <mini caixa="2">juegovert3.jpg</mini>
+              <cfondo>FFFFFF</cfondo>
+              <cadro></cadro>
+              <modo></modo>
+        </paxina>
+    </libro>
+</lim>

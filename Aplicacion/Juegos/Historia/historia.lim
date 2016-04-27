@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="aplausos.mp3" modo="1" >CORRECTO</correcto>
+        <incorrecto son="grillos.mp3" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>hitler.png</imaxe>
+              <texto>¿Desde qué año hasta que año duró la Segunda Guerra Mundial?</texto>
+              <resp texto="¡Correcto!" valor="1">1939-1945</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">1914-1918</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">1989-1991</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">1951-1956</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>edad_antigua.jpg</imaxe>
+              <texto>¿Qué hecho marcó el fin de la Edad Antigua y el inicio de la Edad Media?</texto>
+              <resp texto="¡Correcto!" valor="1">La caida del Imperio Romano</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">La aparición del fuego</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Que los seres humanos dejaran de vivir en tribus</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Los seres humanos empezaron a ser más esudiosos</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>religion.png</imaxe>
+              <texto>¿Cuáles son las principales religiones practicadas en el mundo?</texto>
+              <resp texto="¡Correcto!" valor="1">Budismo, Judaismo, Cristianismo, Islamismo e Hinduismo</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Una por cada país del mundo</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Cristianismo e Hinduismo</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Únicamente el Islamismo por la gran cantidad de ciudadanos en países islámicos</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>feudalismo.jpg</imaxe>
+              <texto>¿Cómo se organizaba la sociedad en la Edad Media?</texto>
+              <resp texto="¡Correcto!" valor="1">En feudos</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">En comunidades</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">De manera monárquica</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">En comunidades muy cerradas</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>luna.jpg</imaxe>
+              <texto>¿En que año viajó por primera vez el hombre a la Luna?</texto>
+              <resp texto="¡Correcto!" valor="1">1961</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">2000</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">1994</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">1985</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>44</tipo>
+            <nonpasar>1</nonpasar>
+              <cousa nome="T-REX: Podía medir hasta 12.3 m y su principal característica era que tenía los miembros superiores pequeños. Era carnívoro." son="">T-Rex_2.png</cousa>
+              <cousa nome="TRICERATOPS: Se cree que medía entre 7 y 9 metro de largo y 3 m de altura, sus grandes cuernos servían para defenderse de los depredadores." son="">triceratorps.jpg</cousa>
+              <cousa nome="ESTEGOSAURIO: Medía 9 m de largo y 4 m de ancho. Tenía un lomo grande y largo. Sus placas mantenían el calor en su cuerpo. En la cola tenia pinchos para defenderse y para guardar su comida." son="">Estegosaurio.jpg</cousa>
+        </paxina>
+    </libro>
+</lim>

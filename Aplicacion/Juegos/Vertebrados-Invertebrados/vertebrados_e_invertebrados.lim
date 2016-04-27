@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lim version="4.0">
+    <config>
+        <idioma>0</idioma>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>27a18467780f74cf7c735443fb14f8bb.jpg</imaxe>
+              <texto>¿Cuales son los grupos de invertebrados con protección corporal?</texto>
+              <resp texto="¡Correcto!" valor="1">Artrópodos, Moluscos y Equinodermos</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Vivíparos y ovíparos</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Gusano, Poríferos y Celentéreos</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Mamíferos, Reptiles, Aves, Peces y Anfíbios</resp>
+        </paxina>
+        <paxina id="2" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>ovoviviparo.jpg</imaxe>
+              <texto>¿Qué significa que un animal sea ovovivíparo?</texto>
+              <resp texto="¡Correcto!" valor="1">Pone huevos, pero estos permanecen dentro del cuerpo de la hembra hasta que el embrión está completamente desarrollado</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Los embriones se gestan en el útero materno</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">El encargado de la alimentación de las crias es el padre</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">La cría permanece en el huevo hasta que es lo suficientemente madura para reproducirse</resp>
+        </paxina>
+        <paxina id="3" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>celentereo.jpg</imaxe>
+              <texto>¿Cuales es la principal diferencia entre los dos grupos principales de celentéreos?</texto>
+              <resp texto="¡Correcto!" valor="1">Las medusas flotan en el agua mientras que los pólipos están fijos a un objeto</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Los pólipos flotan en el agua mientras que las medusas están fijos a un objeto</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Los pólipos son capaces de respirar en la superficie mientras que las medusas no</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Las medusas son venenosas y los pólipos no producen daños en los seres humanos</resp>
+        </paxina>
+        <paxina id="4" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>carnivoro.jpg</imaxe>
+              <texto>¿Qué tipo de alimentación tienen los animales vertebrados?</texto>
+              <resp texto="¡Correcto!" valor="1">Carnívora, Herbívora, Omnívora e Insectívora</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Carnívora y Hervíbora</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Todos los animales vertebrados son Omnívoros</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Carnívora, Herbívora y Omnívora</resp>
+        </paxina>
+        <paxina id="5" >
+              <tipo>1</tipo>
+            <nonpasar>1</nonpasar>
+              <imaxe>vertebrados_e_invertebrados.jpg</imaxe>
+              <texto>¿Cuál es la principal diferencia entre animales vertebrados y animales invertebrados?</texto>
+              <resp texto="¡Correcto!" valor="1">El esqueleto de los vertebrados está compuesto por cabeza, tronco y extremidades mientras que los invertebrados tienen exoesqueleto</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">La cantidad de animales vertebrados que hay supera a los invertebrados</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">Los invertebrados solo viven en el agua mientras que los vertebrados solo son terrestres</resp>
+              <resp texto="Inténtalo de nuevo" valor="0">La reproducción de invertebrados y vertebrados es totalmente distinta</resp>
+        </paxina>
+        <paxina id="6" >
+              <tipo>7</tipo>
+            <nonpasar>1</nonpasar>
+              <caixa1>ANIMALES VERTEBRADOS</caixa1>
+              <caixa2>ANIMALES INVERTEBRADOS</caixa2>
+              <mini caixa="1">juegovert.jpg</mini>
+              <mini caixa="2">juegoinvert.jpg</mini>
+              <mini caixa="1">juegovert2.jpg</mini>
+              <mini caixa="2">juegoinvert2.jpg</mini>
+              <mini caixa="1">juegovert3.jpg</mini>
+              <mini caixa="2">juegoinvert3.jpg</mini>
+              <cfondo>FFFFFF</cfondo>
+              <cadro>1</cadro>
+              <modo></modo>
+        </paxina>
+    </libro>
+</lim>
