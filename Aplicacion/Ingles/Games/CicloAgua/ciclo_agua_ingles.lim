@@ -9,8 +9,8 @@
         <botonson>0</botonson>
         <maximizar>0</maximizar>
         <desordenar>0</desordenar>
-        <correcto son="aplausos.mp3" modo="1" >WELL DONE</correcto>
-        <incorrecto son="grillos.mp3" modo="1" >TRY AGAIN</incorrecto>
+        <correcto son="" modo="1" >WELL DONE</correcto>
+        <incorrecto son="" modo="1" >TRY AGAIN</incorrecto>
     </config>
     <libro>
         <paxina id="1" >
@@ -40,7 +40,7 @@
               <texto>What are the stages of water cycle?</texto>
               <resp texto="Well done!" valor="0">Evaporation, condensation, precipitation and water retunr to sea</resp>
               <resp texto="Try again" valor="0">Evaporation, condensation, precipitation and surface runoff</resp>
-              <resp texto="Try again" valor="0">Evaporation, condensation and</resp>
+              <resp texto="Try again" valor="0">Evaporation, condensation and </resp>
               <resp texto="Try again" valor="0">Containment</resp>
         </paxina>
         <paxina id="4" >
