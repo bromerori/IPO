@@ -1,23 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <lim version="4.0">
     <config>
         <idioma>0</idioma>
-        <corfondo>ffffff</corfondo>
+        <corfondo>FFB253</corfondo>
         <cormensaxes>000000</cormensaxes>
         <cortexto>000000</cortexto>
-        <logo>logCicloAgua.jpg</logo>
-        <informe>1</informe>
-        <botonson>1</botonson>
-        <maximizar>1</maximizar>
+        <logo></logo>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
         <desordenar>0</desordenar>
-        <correcto son="aplausos.mp3" modo="1" >¡Muy bien!</correcto>
-        <incorrecto son="grillos.mp3" modo="1" >Prueba otra vez</incorrecto>
+        <correcto son="" modo="1" >¡Muy bien!</correcto>
+        <incorrecto son="" modo="1" >Prueba otra vez</incorrecto>
     </config>
     <libro>
         <paxina id="1" >
               <tipo>1</tipo>
             <nonpasar>1</nonpasar>
-              <cabeceira>Completa este breve test para saber si has compredido bien el temario</cabeceira>
+             <cabeceira>Completa este breve test para comprobar si has comprendido el temario</cabeceira>
               <imaxe>sublimacion.jpg</imaxe>
               <texto>¿Cómo se llama el cambio de estado gaseoso a sólido?</texto>
               <resp texto="¡Correcto!" valor="1">Sublimación</resp>

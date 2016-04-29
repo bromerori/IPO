@@ -1,21 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <lim version="4.0">
     <config>
         <idioma>0</idioma>
-        <corfondo>ffffff</corfondo>
+        <corfondo>FFB253</corfondo>
         <cormensaxes>000000</cormensaxes>
         <cortexto>000000</cortexto>
         <informe>0</informe>
         <botonson>0</botonson>
         <maximizar>0</maximizar>
         <desordenar>0</desordenar>
-        <correcto son="aplausos.mp3" modo="1" >CORRECTO</correcto>
-        <incorrecto son="grillos.mp3" modo="1" >INCORRECTO</incorrecto>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
     </config>
     <libro>
         <paxina id="1" >
               <tipo>1</tipo>
             <nonpasar>1</nonpasar>
+            <cabeceira>Completa este breve test para comprobar si has comprendido el temario</cabeceira>
               <imaxe>hitler.png</imaxe>
               <texto>¿Desde qué año hasta que año duró la Segunda Guerra Mundial?</texto>
               <resp texto="¡Correcto!" valor="1">1939-1945</resp>

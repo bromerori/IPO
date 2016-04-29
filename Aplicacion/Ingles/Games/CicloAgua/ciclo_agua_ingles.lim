@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <lim version="4.0">
     <config>
         <idioma>0</idioma>
-        <corfondo>ffffff</corfondo>
+        <corfondo>FFB253</corfondo>
         <cormensaxes>000000</cormensaxes>
         <cortexto>000000</cortexto>
         <informe>0</informe>
@@ -16,6 +16,7 @@
         <paxina id="1" >
               <tipo>1</tipo>
             <nonpasar>1</nonpasar>
+            <cabeceira>Complete this short test to check if you have understood the topic</cabeceira>   
               <imaxe>sublimacion.jpg</imaxe>
               <texto>How is it called the change from gaseous state into solid state?</texto>
               <resp texto="Well done!" valor="1">Sublimation</resp>

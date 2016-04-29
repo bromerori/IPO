@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <lim version="4.0">
     <config>
         <idioma>0</idioma>
-        <corfondo>FFFFFF</corfondo>
+        <corfondo>FFB253</corfondo>
         <cormensaxes>000000</cormensaxes>
         <cortexto>400040</cortexto>
-        <logo>logoPlantas.jpg</logo>
-        <informe>1</informe>
-        <botonson>1</botonson>
-        <maximizar>1</maximizar>
+        <logo></logo>
+        <informe>0</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
         <desordenar>0</desordenar>
-        <correcto son="aplausos.mp3" modo="1" >¡Muy bien!</correcto>
-        <incorrecto son="grillos.mp3" modo="1" >¡Prueba otra vez!</incorrecto>
+        <correcto son="" modo="1" >¡Muy bien!</correcto>
+        <incorrecto son="" modo="1" >¡Prueba otra vez!</incorrecto>
     </config>
     <libro>
         <paxina id="1" >

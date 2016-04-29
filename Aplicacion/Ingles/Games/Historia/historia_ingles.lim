@@ -1,21 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <lim version="4.0">
     <config>
         <idioma>0</idioma>
-        <corfondo>ffffff</corfondo>
+        <corfondo>FFB253</corfondo>
         <cormensaxes>000000</cormensaxes>
         <cortexto>000000</cortexto>
         <informe>0</informe>
         <botonson>0</botonson>
         <maximizar>0</maximizar>
         <desordenar>0</desordenar>
-        <correcto son="aplausos.mp3" modo="1" >WELL DONE</correcto>
-        <incorrecto son="grillos.mp3" modo="1" >TRY AGAIN</incorrecto>
+        <correcto son="" modo="1" >WELL DONE</correcto>
+        <incorrecto son="" modo="1" >TRY AGAIN</incorrecto>
     </config>
     <libro>
         <paxina id="1" >
               <tipo>1</tipo>
             <nonpasar>1</nonpasar>
+            <cabeceira>Complete this short test to check if you have understood the topic</cabeceira>        
               <imaxe>hitler.png</imaxe>
               <texto>How long did the Second World War?</texto>
               <resp texto="Well done!" valor="1">1939-1945</resp>

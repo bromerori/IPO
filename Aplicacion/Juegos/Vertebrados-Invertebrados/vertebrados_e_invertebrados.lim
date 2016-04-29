@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <lim version="4.0">
     <config>
         <idioma>0</idioma>
-        <corfondo>ffffff</corfondo>
+        <corfondo>FFB253</corfondo>
         <cormensaxes>000000</cormensaxes>
         <cortexto>000000</cortexto>
         <informe>0</informe>
@@ -16,6 +16,7 @@
         <paxina id="1" >
               <tipo>1</tipo>
             <nonpasar>1</nonpasar>
+            <cabeceira>Completa este breve test para comprobar si has comprendido el temario</cabeceira>
               <imaxe>27a18467780f74cf7c735443fb14f8bb.jpg</imaxe>
               <texto>¿Cuales son los grupos de invertebrados con protección corporal?</texto>
               <resp texto="¡Correcto!" valor="1">Artrópodos, Moluscos y Equinodermos</resp>

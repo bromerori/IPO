@@ -1,21 +1,22 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <lim version="4.0">
     <config>
         <idioma>0</idioma>
-        <corfondo>ffffff</corfondo>
+        <corfondo>FFB253</corfondo>
         <cormensaxes>000000</cormensaxes>
         <cortexto>000000</cortexto>
         <informe>0</informe>
         <botonson>0</botonson>
         <maximizar>0</maximizar>
         <desordenar>0</desordenar>
-        <correcto son="aplausos.mp3" modo="1" >CORRECTO</correcto>
-        <incorrecto son="grillos.mp3" modo="1" >INCORRECTO</incorrecto>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
     </config>
     <libro>
         <paxina id="1" >
               <tipo>1</tipo>
             <nonpasar>1</nonpasar>
+            <cabeceira>Completa este breve test para comprobar si has comprendido el temario</cabeceira>
               <imaxe>esqueleto-humano-261x300.jpg</imaxe>
               <texto>¿Cuál es el número de huesos en el cuerpo humano?</texto>
               <resp texto="Inténtalo de nuevo" valor="0">Más de 300</resp>
@@ -27,7 +28,7 @@
               <tipo>1</tipo>
             <nonpasar>1</nonpasar>
               <imaxe>De-la-cabeza-a-los-pies-el-cuerpo-humano-en-cifras-01.jpg</imaxe>
-              <texto>¿Cuántos aparatos sitemas has en el cuerpo humano?</texto>
+              <texto>¿Cuántos aparatos/sitemas hay en el cuerpo humano?</texto>
               <resp texto="¡Correcto!" valor="1">5</resp>
               <resp texto="Inténtalo de nuevo" valor="0">8</resp>
               <resp texto="Inténtalo de nuevo" valor="0">1</resp>
@@ -56,7 +57,7 @@
         <paxina id="5" >
               <tipo>1</tipo>
             <nonpasar>1</nonpasar>
-              <imaxe>orejita.jpg</imaxe>
+              <imaxe>articulaciones.jpg</imaxe>
               <texto>¿Qué es una articulación?</texto>
               <resp texto="¡Correcto!" valor="1">Es la unión de dos huesos</resp>
               <resp texto="Inténtalo de nuevo" valor="0">Es un tipo de músculo</resp>
